@@ -1,0 +1,17 @@
+/* styles.css */
+.my-button {
+  background-color: #4caf50; /* Set your desired background color */
+  color: white; /* Set your desired text color */
+  padding: 20px 32px; /* Optional: Adds space inside the button */
+  border: none; /* Optional: Removes default border */
+  border-radius: 25px; /* Optional: Rounds the corners */
+  cursor: pointer; /* Optional: Changes cursor to a hand on hover */
+}
+h1 {
+  color: #4dd495; /* Changes text color */
+  font-size: 36px; /* Sets the size of the text */
+  text-align: justify; /* Aligns the heading to the center */
+  font-family: "Arial", sans-serif; /* Changes the font style */
+  margin-bottom: 44px; /* Adds space below the heading */
+  border-bottom: 32px solid #eee; /* Adds an underline effect */
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KALoR</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello Bitch!</h1>
+
+    <input type="text" id="hexInput" placeholder="#FFFFFF" maxlength="7" />
+    <button class="my-button" onclick="updateColor()">Preview GAVno</button>
+    <div
+      id="colorFux"
+      style="
+        width: 300px;
+        height: 100px;
+        border: 1px solid #000;
+        margin-top: 10px;
+      "
+    ></div>
+
+    <script>
+      function updateColor() {
+        // Get the value from the input field
+        const huyex = document.getElementById("hexInput").value;
+        //som randam cooment
+        // Apply the color to the frame's background
+        // Note: CSS background-color requires the '#' prefix for hex codes
+        document.getElementById("colorFux").style.backgroundColor = huyex;
+      }
+    </script>
+  </body>
+</html>
+
+<!--
+
+
+<input type="text" id="hexInput" placeholder="#FFFFFF" maxlength="7">
+
+<button onclick="updateColor()">Preview Color</button>
+
+<div id="colorFrame" style="width: 100px; height: 100px; border: 1px solid #000; margin-top: 10px;"></div>
+
+<script>
+  function updateColor() {
+    // Get the value from the input field
+    const hex = document.getElementById('hexInput').value;
+    
+    // Apply the color to the frame's background
+    // Note: CSS background-color requires the '#' prefix for hex codes
+    document.getElementById('colorFrame').style.backgroundColor = hex;
+  }
+</script>
+
+   -->
