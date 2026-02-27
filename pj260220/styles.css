@@ -15,3 +15,9 @@ h1 {
   margin-bottom: 44px; /* Adds space below the heading */
   border-bottom: 32px solid #eee; /* Adds an underline effect */
 }
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: none;
+  margin-top: 5px;
+}
